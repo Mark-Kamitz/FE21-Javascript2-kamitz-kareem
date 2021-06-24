@@ -1,6 +1,6 @@
 // intermediate1
     (function(argument) {  
-    var first_letter = argument.charAt(0).toUpperCase();;
+    var first_letter = argument.charAt(0).toUpperCase();
     argument = argument.substring(1);
     var output = first_letter + argument;
     document.write(output);
